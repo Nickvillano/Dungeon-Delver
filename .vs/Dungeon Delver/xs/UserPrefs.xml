@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{AB661688-7F8D-F030-BFD0-79AA71078BDF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/SwordController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/InRoom.cs">
     <Files>
       <File FileName="Assets/Resources/DelverData.txt" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/Tile.cs" />
       <File FileName="Assets/__Scripts/TileCamera.cs" />
       <File FileName="Assets/__Scripts/Dray.cs" Line="86" Column="6" />
-      <File FileName="Assets/__Scripts/SwordController.cs" Line="21" Column="5" />
+      <File FileName="Assets/__Scripts/SwordController.cs" Line="21" Column="2" />
+      <File FileName="Assets/__Scripts/Enemies.cs" Line="24" Column="1" />
+      <File FileName="Assets/__Scripts/Skeletos.cs" Line="5" Column="32" />
+      <File FileName="Assets/__Scripts/InRoom.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +16,7 @@
           <Node name="Dungeon Delver" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="__Scripts" expanded="True">
-                <Node name="SwordController.cs" selected="True" />
+                <Node name="InRoom.cs" selected="True" />
               </Node>
               <Node name="Resources" expanded="True" />
             </Node>

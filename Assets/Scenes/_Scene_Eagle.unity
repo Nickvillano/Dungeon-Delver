@@ -225,6 +225,8 @@ GameObject:
   - component: {fileID: 893816832}
   - component: {fileID: 893816831}
   - component: {fileID: 893816830}
+  - component: {fileID: 893816833}
+  - component: {fileID: 893816834}
   m_Layer: 0
   m_Name: Skeletos
   m_TagString: Untagged
@@ -342,6 +344,39 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &893816833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893816827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918a92c51bc414888a49b2cc5cf03ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  health: 0
+  speed: 2
+  timeThinkMin: 1
+  timeThinkMax: 4
+  facing: 0
+  timeNextDecision: 0
+--- !u!114 &893816834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893816827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c95b1e3f0c24a5d9822981856e7d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepInRoom: 1
+  gridMult: 1
 --- !u!1 &927735430
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +434,8 @@ GameObject:
   - component: {fileID: 1105894566}
   - component: {fileID: 1105894569}
   - component: {fileID: 1105894570}
+  - component: {fileID: 1105894571}
+  - component: {fileID: 1105894572}
   m_Layer: 0
   m_Name: Dray
   m_TagString: Untagged
@@ -522,6 +559,33 @@ MonoBehaviour:
   dirHeld: -1
   facing: 1
   mode: 0
+--- !u!135 &1105894571
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105894565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.4
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1105894572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105894565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c95b1e3f0c24a5d9822981856e7d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepInRoom: 0
+  gridMult: 1
 --- !u!1 &1620322350
 GameObject:
   m_ObjectHideFlags: 0
