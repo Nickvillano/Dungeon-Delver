@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{AB661688-7F8D-F030-BFD0-79AA71078BDF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/TileCamera.cs">
+    <Files>
+      <File FileName="Assets/Resources/DelverData.txt" Line="1" Column="1" />
+      <File FileName="Assets/Resources/DelverData.txt" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Tile.cs" Line="27" Column="2" />
+      <File FileName="Assets/__Scripts/TileCamera.cs" Line="7" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Dungeon Delver" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="__Scripts" expanded="True">
+                <Node name="TileCamera.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0aeb27a4-0039-401a-ba38-bbef80d507fa" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

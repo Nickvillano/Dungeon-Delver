@@ -68,6 +68,8 @@
     <Compile Include="Assets\__Scripts\ProtoTools\Scoreboard.cs" />
     <Compile Include="Assets\__Scripts\ProtoTools\Utils.cs" />
     <Compile Include="Assets\__Scripts\Spiker.cs" />
+    <Compile Include="Assets\__Scripts\Tile.cs" />
+    <Compile Include="Assets\__Scripts\TileCamera.cs" />
     <None Include="Assets\Resources\DelverCollisions.txt" />
     <None Include="Assets\Resources\DelverGrappleable.txt" />
     <None Include="Assets\Resources\DelverData_Hat.txt" />
