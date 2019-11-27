@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -137,6 +138,11 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
                 break;
         }
         rigid.velocity = vel * speed;
+    }
+
+    internal void TakeDamage(DamageEffect dEf, Vector3 position)
+    {
+        throw new NotImplementedException();
     }
 
     void LateUpdate()
