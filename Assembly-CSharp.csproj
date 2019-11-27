@@ -63,6 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\__Dungeon_Editor\EditorDestroyGameObject.cs" />
+    <Compile Include="Assets\__Dungeon_Editor\EditorMap.cs" />
+    <Compile Include="Assets\__Dungeon_Editor\EditorMiniMap.cs" />
+    <Compile Include="Assets\__Dungeon_Editor\EditorMiniMapRoom.cs" />
+    <Compile Include="Assets\__Dungeon_Editor\EditorTile.cs" />
+    <Compile Include="Assets\__Dungeon_Editor\EditorTileSelection.cs" />
     <Compile Include="Assets\__Scripts\CamFollowDray.cs" />
     <Compile Include="Assets\__Scripts\DamageEffect.cs" />
     <Compile Include="Assets\__Scripts\Dray.cs" />
@@ -85,9 +91,11 @@
     <Compile Include="Assets\__Scripts\Tile.cs" />
     <Compile Include="Assets\__Scripts\TileCamera.cs" />
     <None Include="Assets\Resources\DelverCollisions.txt" />
+    <None Include="Assets\__Dungeon_Editor\___Instructions_for_Dungeon_Delver_Editor___.txt" />
     <None Include="Assets\Resources\DelverGrappleable.txt" />
     <None Include="Assets\Resources\DelverData_Hat.txt" />
     <None Include="Assets\Resources\DelverData.txt" />
+    <None Include="Assets\Resources\DelverData_Forbidden.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/nick/Documents/GitHub/Dungeon Delver/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

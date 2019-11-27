@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 135000012625933370}
   - component: {fileID: 54000013947594838}
   - component: {fileID: 114937921823289854}
+  - component: {fileID: 7745323568726278998}
+  - component: {fileID: 3301079115815439789}
+  - component: {fileID: 4390978042325483233}
   m_Layer: 11
   m_Name: Spiker
   m_TagString: Untagged
@@ -68,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -165514783
-  m_SortingLayer: 0
+  m_SortingLayerID: -1681453499
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a036b96ada20f4506bd02ffcd3b831ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -123,7 +126,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f596252f87e344ab9b1b23d9a9e7bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 8
+  knockbackSpeed: 10
+  knockbackDuration: 0.25
+  invincibleDuration: 0.5
+  randomItemDrops: []
+  guaranteedItemDrop: {fileID: 0}
+  health: 0
+  invincible: 0
+  knockback: 0
   sensorRange: 0.75
   attackSpeed: 6
   retractSpeed: 3
   radius: 0.4
+--- !u!95 &7745323568726278998
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010950105738}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0d274725c0e2843a78e36b6e2999363f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3301079115815439789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010950105738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c95b1e3f0c24a5d9822981856e7d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keepInRoom: 1
+  gridMult: 1
+--- !u!114 &4390978042325483233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010950105738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e1f277635c94ef2be1ba487d3af22f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  knockback: 1

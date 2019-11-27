@@ -2,10 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
 {
-    public enum eMode { idle, move, attack, transition, knockback }
+    public enum eMode { idle, move, attack, transition, knockback, die }
     [Header("Set in Inspector")]
     public float speed = 5;
     public float attackDuration = 0.25f; //number of seconds to attack
@@ -26,6 +27,7 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
     public bool hasGrappler = false;
     public Vector3 lastSafeLoc;                                     // a 
     public int lastSafeFacing;
+    public Vector3 originalPos;
 
        [SerializeField]                                                          // b
     private int _health;
@@ -58,6 +60,7 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
 
     void Awake()
     {
+        originalPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         sRend = GetComponent<SpriteRenderer>();
         rigid = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
@@ -86,6 +89,16 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
             if (Time.time < transitionDone) return;
             // The following line is only reached if Time.time >= transitionDone
             mode = eMode.idle;
+        }
+
+        if (health == 0)
+        {  
+            mode = eMode.die;
+        }
+
+        if(mode == eMode.die)
+        {
+            SceneManager.LoadScene("_Scene_Hat");
         }
 
         //————Handle Keyboard Input and manage eDrayModes———— 

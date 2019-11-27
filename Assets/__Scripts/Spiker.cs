@@ -78,12 +78,8 @@ public class Spiker : Enemies
                     break;
                 }
                 transform.position = pos + delta;
-
-                // Test for collision with Dray
-                if ((dray.transform.position - transform.position).magnitude < radius + drayColld.radius)
-                {
-                    dray.TakeDamage(dEf, transform.position);
-                }
+                
+                
                 break;
 
             case eMode.retract:
