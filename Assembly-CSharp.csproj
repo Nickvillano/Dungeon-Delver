@@ -63,9 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\__Scripts\CamFollowDray.cs" />
     <Compile Include="Assets\__Scripts\Dray.cs" />
     <Compile Include="Assets\__Scripts\Enemies.cs" />
+    <Compile Include="Assets\__Scripts\GateKeeper.cs" />
+    <Compile Include="Assets\__Scripts\GridMove.cs" />
+    <Compile Include="Assets\__Scripts\GuiPanel.cs" />
     <Compile Include="Assets\__Scripts\IFacingMover.cs" />
+    <Compile Include="Assets\__Scripts\IKeyMaster.cs" />
     <Compile Include="Assets\__Scripts\InRoom.cs" />
     <Compile Include="Assets\__Scripts\ProtoTools\FloatingScore.cs" />
     <Compile Include="Assets\__Scripts\ProtoTools\PT_XMLReader.cs" />

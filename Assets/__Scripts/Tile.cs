@@ -23,11 +23,16 @@ public class Tile : MonoBehaviour
         transform.localPosition = new Vector3(x, y, 0);
         gameObject.name = x.ToString("D3") + "x" + y.ToString("D3"); //b
 
-        if(eTileNum == -1)
+        if (eTileNum == -1)
         {
             eTileNum = TileCamera.GET_MAP(x, y);    //c
         }
-        tileNum = eTileNum;
+        else
+        {
+            TileCamera.SET_MAP(x, y, eTileNum); // Replace if non-default tileNum
+        }
+
+       tileNum = eTileNum;
         GetComponent<SpriteRenderer>().sprite = TileCamera.SPRITES[tileNum];
 
         SetCollider();
