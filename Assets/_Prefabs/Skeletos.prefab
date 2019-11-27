@@ -152,8 +152,15 @@ MonoBehaviour:
   invincibleDuration: 0.5
   randomItemDrops:
   - {fileID: 4608777544791571988, guid: 1d8b55bf5160148569403906530482a0, type: 3}
+  - {fileID: 4608777544791571988, guid: 1d8b55bf5160148569403906530482a0, type: 3}
+  - {fileID: 4608777544791571988, guid: 1d8b55bf5160148569403906530482a0, type: 3}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 7724700151322006258, guid: 129a5174bec324e318e0e9ad078c92e4, type: 3}
   guaranteedItemDrop: {fileID: 0}
   health: 0
   invincible: 0
