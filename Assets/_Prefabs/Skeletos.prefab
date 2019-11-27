@@ -152,6 +152,8 @@ MonoBehaviour:
   invincibleDuration: 0.5
   randomItemDrops:
   - {fileID: 4608777544791571988, guid: 1d8b55bf5160148569403906530482a0, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   guaranteedItemDrop: {fileID: 0}
   health: 0
   invincible: 0
