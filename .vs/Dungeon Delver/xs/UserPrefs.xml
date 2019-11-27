@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{AB661688-7F8D-F030-BFD0-79AA71078BDF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/GuiPanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/DamageEffect.cs">
     <Files>
       <File FileName="Assets/Resources/DelverData.txt" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/Tile.cs" Line="34" Column="1" />
@@ -14,7 +14,8 @@
       <File FileName="Assets/__Scripts/CamFollowDray.cs" Line="46" Column="6" />
       <File FileName="Assets/__Scripts/IKeyMaster.cs" Line="10" Column="1" />
       <File FileName="Assets/__Scripts/GateKeeper.cs" Line="79" Column="1" />
-      <File FileName="Assets/__Scripts/GuiPanel.cs" Line="7" Column="5" />
+      <File FileName="Assets/__Scripts/GuiPanel.cs" Line="55" Column="6" />
+      <File FileName="Assets/__Scripts/DamageEffect.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
