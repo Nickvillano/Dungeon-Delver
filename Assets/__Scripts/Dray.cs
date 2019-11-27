@@ -212,8 +212,24 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
         }
     }
 
+    void OnTriggerEnter(Collider colld)
+    {
+        PickUp pup = colld.GetComponent<PickUp>();                           // a
+        if (pup == null) return;
+        switch (pup.itemType)
+        {
+            case PickUp.eType.health:
+                health = Mathf.Min(health + 2, maxHealth);
+                break;
+            case PickUp.eType.key:
+                keyCount++;
+                break;
+        }
+        Destroy(colld.gameObject);
+    }
+
     // Implementation of IFacingMover 
-            public int GetFacing()
+                public int GetFacing()
     {                                                 // c 
         return facing;
     }
