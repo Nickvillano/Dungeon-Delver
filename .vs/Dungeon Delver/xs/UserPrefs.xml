@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{AB661688-7F8D-F030-BFD0-79AA71078BDF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Dungeon_Editor/___Instructions_for_Dungeon_Delver_Editor___.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/GameOverManager.cs">
     <Files>
+      <File FileName="Assets/__Scripts/Enemies.cs" Line="103" Column="9" IsPinned="True" />
       <File FileName="Assets/Resources/DelverData.txt" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/Tile.cs" />
       <File FileName="Assets/__Scripts/TileCamera.cs" />
-      <File FileName="Assets/__Scripts/Dray.cs" Line="145" Column="45" />
-      <File FileName="Assets/__Scripts/SwordController.cs" />
-      <File FileName="Assets/__Scripts/Enemies.cs" />
-      <File FileName="Assets/__Scripts/Skeletos.cs" />
+      <File FileName="Assets/__Scripts/Dray.cs" Line="101" Column="47" />
+      <File FileName="Assets/__Scripts/SwordController.cs" Line="21" Column="2" />
+      <File FileName="Assets/__Scripts/Skeletos.cs" Line="26" Column="1" />
       <File FileName="Assets/__Scripts/InRoom.cs" />
       <File FileName="Assets/__Scripts/IFacingMover.cs" />
       <File FileName="Assets/__Scripts/GridMove.cs" />
@@ -15,21 +15,22 @@
       <File FileName="Assets/__Scripts/IKeyMaster.cs" />
       <File FileName="Assets/__Scripts/GateKeeper.cs" />
       <File FileName="Assets/__Scripts/GuiPanel.cs" />
-      <File FileName="Assets/__Scripts/DamageEffect.cs" />
+      <File FileName="Assets/__Scripts/DamageEffect.cs" Line="9" Column="38" />
       <File FileName="Assets/__Scripts/PickUp.cs" />
       <File FileName="Assets/__Scripts/Grapple.cs" />
-      <File FileName="Assets/__Scripts/Spiker.cs" />
-      <File FileName="Assets/__Dungeon_Editor/___Instructions_for_Dungeon_Delver_Editor___.txt" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Spiker.cs" Line="82" Column="17" />
+      <File FileName="Assets/__Dungeon_Editor/___Instructions_for_Dungeon_Delver_Editor___.txt" Line="8" Column="14" />
+      <File FileName="Assets/__Scripts/GameOverManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Dungeon Delver" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="__Dungeon_Editor" expanded="True">
-                <Node name="___Instructions_for_Dungeon_Delver_Editor___.txt" selected="True" />
+              <Node name="__Dungeon_Editor" expanded="True" />
+              <Node name="__Scripts" expanded="True">
+                <Node name="GameOverManager.cs" selected="True" />
               </Node>
-              <Node name="__Scripts" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>

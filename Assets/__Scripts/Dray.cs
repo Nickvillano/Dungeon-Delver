@@ -29,7 +29,7 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
     public int lastSafeFacing;
     public Vector3 originalPos;
 
-       [SerializeField]                                                          // b
+    [SerializeField]                                                          // b
     private int _health;
     public int health
     {                                                       // c

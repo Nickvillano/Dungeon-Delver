@@ -73,6 +73,7 @@
     <Compile Include="Assets\__Scripts\DamageEffect.cs" />
     <Compile Include="Assets\__Scripts\Dray.cs" />
     <Compile Include="Assets\__Scripts\Enemies.cs" />
+    <Compile Include="Assets\__Scripts\GameOverManager.cs" />
     <Compile Include="Assets\__Scripts\GateKeeper.cs" />
     <Compile Include="Assets\__Scripts\Grapple.cs" />
     <Compile Include="Assets\__Scripts\GridMove.cs" />
