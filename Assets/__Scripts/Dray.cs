@@ -18,7 +18,7 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
     public float knockbackDuration = 0.25f;
     public float invincibleDuration = 0.5f;
 
-       [Header("Set Dynamically")]
+    [Header("Set Dynamically")]
     public int dirHeld = -1; // Direction of the held movement key
     public int facing = 1; //Direction Dray is facing
     public eMode mode = eMode.idle;  //a
@@ -51,6 +51,11 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
     private Animator anim;
     private InRoom inRm;
 
+    private Animator goAnim;
+    private GameObject mcCanvas;
+    public float restartDelay = 5f;
+    float restartTimer;
+
     private Vector3[] directions = {
         Vector3.right, Vector3.up, Vector3.left, Vector3.down
     };             // a
@@ -64,11 +69,13 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
         sRend = GetComponent<SpriteRenderer>();
         rigid = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        mcCanvas = GameObject.Find("MainCameraCanvas");
+        goAnim = mcCanvas.GetComponent<Animator>();
         inRm = GetComponent<InRoom>();
         health = maxHealth;
         lastSafeLoc = transform.position; // The start position is safe.
-        lastSafeFacing = facing;
-            }
+        lastSafeFacing = facing; 
+    }
     void Update()
     {
 
@@ -91,15 +98,22 @@ public class Dray : MonoBehaviour, IFacingMover, IKeyMaster
             mode = eMode.idle;
         }
 
-        if (health == 0)
-        {  
-            mode = eMode.die;
-        }
+        //if (health == 0)
+        //{  
+        //mode = eMode.die;
+        // }
 
-        if(mode == eMode.die)
-        {
-            SceneManager.LoadScene("_Scene_Hat");
-        }
+        //if(mode == eMode.die)
+        //{
+        //goAnim.SetTrigger("GameOverClip");
+
+        //restartTimer += Time.deltaTime;
+
+        //if (restartTimer >= restartDelay)
+        //{
+        //SceneManager.LoadScene("_Scene_Hat");
+        //}
+        // }
 
         //————Handle Keyboard Input and manage eDrayModes———— 
         dirHeld = -1;

@@ -4,26 +4,39 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
-{ 
-    public float restartDelay = 5f;
-    
+{
+    public Dray dray;
+    public float restartDelay = 5f;            // Time to wait before restarting the level
 
-    Animator anim;
-    float restartTimer;
+
+    Animator anim;                          // Reference to the animator component.
+    float restartTimer;                     // Timer to count up to restarting the level
+
 
     void Awake()
     {
+        // Set up the reference.
         anim = GetComponent<Animator>();
     }
 
+
     void Update()
     {
-        anim.SetTrigger("GameOver");
-        restartTimer += Time.deltaTime;
-
-        if (restartTimer >= restartDelay)
+        // If the player has run out of health...
+        if (dray.health <= 0)
         {
-            SceneManager.LoadScene("_Scene_Hat");
+            // ... tell the animator the game is over.
+            anim.SetTrigger("GameOver");
+
+            // .. increment a timer to count up to restarting.
+            restartTimer += Time.deltaTime;
+
+            // .. if it reaches the restart delay...
+            if (restartTimer >= restartDelay)
+            {
+                // .. then reload the currently loaded level.
+                SceneManager.LoadScene("_Scene_Hat");
+            }
         }
     }
 }

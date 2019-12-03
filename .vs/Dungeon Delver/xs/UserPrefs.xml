@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{AB661688-7F8D-F030-BFD0-79AA71078BDF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/GameOverManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/Dray.cs">
     <Files>
       <File FileName="Assets/__Scripts/Enemies.cs" Line="103" Column="9" IsPinned="True" />
-      <File FileName="Assets/Resources/DelverData.txt" Line="1" Column="1" />
+      <File FileName="Assets/Resources/DelverData.txt" />
       <File FileName="Assets/__Scripts/Tile.cs" />
       <File FileName="Assets/__Scripts/TileCamera.cs" />
-      <File FileName="Assets/__Scripts/Dray.cs" Line="101" Column="47" />
-      <File FileName="Assets/__Scripts/SwordController.cs" Line="21" Column="2" />
-      <File FileName="Assets/__Scripts/Skeletos.cs" Line="26" Column="1" />
+      <File FileName="Assets/__Scripts/Dray.cs" Line="98" Column="1" />
+      <File FileName="Assets/__Scripts/SwordController.cs" />
+      <File FileName="Assets/__Scripts/Skeletos.cs" />
       <File FileName="Assets/__Scripts/InRoom.cs" />
       <File FileName="Assets/__Scripts/IFacingMover.cs" />
       <File FileName="Assets/__Scripts/GridMove.cs" />
@@ -15,12 +15,12 @@
       <File FileName="Assets/__Scripts/IKeyMaster.cs" />
       <File FileName="Assets/__Scripts/GateKeeper.cs" />
       <File FileName="Assets/__Scripts/GuiPanel.cs" />
-      <File FileName="Assets/__Scripts/DamageEffect.cs" Line="9" Column="38" />
+      <File FileName="Assets/__Scripts/DamageEffect.cs" />
       <File FileName="Assets/__Scripts/PickUp.cs" />
       <File FileName="Assets/__Scripts/Grapple.cs" />
-      <File FileName="Assets/__Scripts/Spiker.cs" Line="82" Column="17" />
-      <File FileName="Assets/__Dungeon_Editor/___Instructions_for_Dungeon_Delver_Editor___.txt" Line="8" Column="14" />
-      <File FileName="Assets/__Scripts/GameOverManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Spiker.cs" />
+      <File FileName="Assets/__Dungeon_Editor/___Instructions_for_Dungeon_Delver_Editor___.txt" />
+      <File FileName="Assets/__Scripts/GameOverManager.cs" Line="25" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +29,7 @@
             <Node name="Assets" expanded="True">
               <Node name="__Dungeon_Editor" expanded="True" />
               <Node name="__Scripts" expanded="True">
-                <Node name="GameOverManager.cs" selected="True" />
+                <Node name="Dray.cs" selected="True" />
               </Node>
               <Node name="Resources" expanded="True" />
             </Node>
@@ -40,7 +40,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="78a1cf41-9421-439b-ad21-915a022bdfa7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="08a1f900-8768-4d6b-a249-1ea04cd5bee9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
