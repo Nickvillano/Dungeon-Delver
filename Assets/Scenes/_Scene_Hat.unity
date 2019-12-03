@@ -1473,7 +1473,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dray: {fileID: 1105894570}
-  restartDelay: 1.5
+  restartDelay: 2
+  health: 0
 --- !u!95 &1867718145
 Animator:
   serializedVersion: 3

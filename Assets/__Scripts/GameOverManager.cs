@@ -7,7 +7,7 @@ public class GameOverManager : MonoBehaviour
 {
     public Dray dray;
     public float restartDelay = 5f;            // Time to wait before restarting the level
-
+    public int health;
 
     Animator anim;                          // Reference to the animator component.
     float restartTimer;                     // Timer to count up to restarting the level
@@ -17,13 +17,15 @@ public class GameOverManager : MonoBehaviour
     {
         // Set up the reference.
         anim = GetComponent<Animator>();
+        
     }
 
 
     void Update()
     {
+        health = dray.health;
         // If the player has run out of health...
-        if (dray.health <= 0)
+        if (health <= 0)
         {
             // ... tell the animator the game is over.
             anim.SetTrigger("GameOver");
