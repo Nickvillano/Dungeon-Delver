@@ -97,6 +97,7 @@
     <None Include="Assets\Resources\DelverData_Hat.txt" />
     <None Include="Assets\Resources\DelverData.txt" />
     <None Include="Assets\Resources\DelverData_Forbidden.txt" />
+    <None Include="Assets\Resources\DelverData_Nick.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/nick/Documents/GitHub/Dungeon Delver/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

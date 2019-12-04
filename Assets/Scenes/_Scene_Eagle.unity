@@ -158,6 +158,8 @@ MonoBehaviour:
   mapCollisions: {fileID: 4900000, guid: 8c7dddc175b4444fa9bf2466a05b5324, type: 3}
   tilePrefab: {fileID: 6169000248494276351, guid: 0f861ca3f31524dda97365cbf1982b9c,
     type: 3}
+  defaultTileNum: 0
+  tileSwaps: []
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -833,7 +835,9 @@ MonoBehaviour:
   hasGrappler: 0
   lastSafeLoc: {x: 0, y: 0, z: 0}
   lastSafeFacing: 0
+  originalPos: {x: 0, y: 0, z: 0}
   _health: 0
+  restartDelay: 5
 --- !u!135 &1105894571
 SphereCollider:
   m_ObjectHideFlags: 0
