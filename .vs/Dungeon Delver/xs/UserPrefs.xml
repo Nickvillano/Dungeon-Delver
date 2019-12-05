@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{AB661688-7F8D-F030-BFD0-79AA71078BDF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/Dray.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/DelverData_Nick.txt">
     <Files>
       <File FileName="Assets/__Scripts/Enemies.cs" Line="103" Column="9" IsPinned="True" />
       <File FileName="Assets/Resources/DelverData.txt" />
       <File FileName="Assets/__Scripts/Tile.cs" />
       <File FileName="Assets/__Scripts/TileCamera.cs" />
-      <File FileName="Assets/__Scripts/Dray.cs" Line="98" Column="1" />
+      <File FileName="Assets/__Scripts/Dray.cs" />
       <File FileName="Assets/__Scripts/SwordController.cs" />
       <File FileName="Assets/__Scripts/Skeletos.cs" />
       <File FileName="Assets/__Scripts/InRoom.cs" />
@@ -20,7 +20,8 @@
       <File FileName="Assets/__Scripts/Grapple.cs" />
       <File FileName="Assets/__Scripts/Spiker.cs" />
       <File FileName="Assets/__Dungeon_Editor/___Instructions_for_Dungeon_Delver_Editor___.txt" />
-      <File FileName="Assets/__Scripts/GameOverManager.cs" Line="25" Column="10" />
+      <File FileName="Assets/__Scripts/GameOverManager.cs" Line="45" Column="1" />
+      <File FileName="Assets/Resources/DelverData_Nick.txt" Line="1" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,10 +29,10 @@
           <Node name="Dungeon Delver" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="__Dungeon_Editor" expanded="True" />
-              <Node name="__Scripts" expanded="True">
-                <Node name="Dray.cs" selected="True" />
+              <Node name="__Scripts" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="DelverData_Nick.txt" selected="True" />
               </Node>
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

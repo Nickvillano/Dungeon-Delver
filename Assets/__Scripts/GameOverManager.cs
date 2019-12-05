@@ -8,7 +8,7 @@ public class GameOverManager : MonoBehaviour
     public Dray dray;
     public float restartDelay = 5f;            // Time to wait before restarting the level
     public int health;
-
+    public string sceneSelected;
     Animator anim;                          // Reference to the animator component.
     float restartTimer;                     // Timer to count up to restarting the level
 
@@ -37,7 +37,7 @@ public class GameOverManager : MonoBehaviour
             if (restartTimer >= restartDelay)
             {
                 // .. then reload the currently loaded level.
-                SceneManager.LoadScene("_Scene_Hat");
+                SceneManager.LoadScene(sceneSelected);
             }
         }
     }
